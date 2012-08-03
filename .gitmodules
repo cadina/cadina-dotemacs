@@ -1,6 +1,6 @@
 [submodule "php-mode"]
 	path = php-mode
-	url = https://github.com/ejmr/php-mode.git
+	url = git://github.com/ejmr/php-mode.git
 [submodule "auto-complete"]
 	path = auto-complete
 	url = git://github.com/m2ym/auto-complete.git
