@@ -3,7 +3,7 @@
 (prefer-coding-system 'utf-8)
 (set-terminal-coding-system 'utf-8)
 
-(add-to-list 'load-path "~/elisp")
+(add-to-list 'load-path "~/.emacs.d")
 (setq default-directory "~/projects")
 
 (setq indent-tabs-mode nil)
