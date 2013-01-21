@@ -1,4 +1,7 @@
-(setq inhibit-startup-screen t)
+(custom-set-variables
+ '(inhibit-startup-screen t)
+ '(scroll-bar-mode nil)
+ '(tool-bar-mode nil))
 
 (prefer-coding-system 'utf-8)
 (set-terminal-coding-system 'utf-8)
@@ -13,7 +16,6 @@
 
 (setq slime-lisp-implementations
   '((sbcl ("sbcl"))))
-
 
 
 (require 'auto-complete)
@@ -36,15 +38,9 @@
     (auto-complete)
     ))
 
-
-
-
-
-
 ;;ibuffer
 (global-set-key (kbd "C-x C-b") 'ibuffer)
 (autoload 'ibuffer "ibuffer" "List buffers." t)
 ;(add-to-list 'ibuffer-never-show-regexps "^\\*")
-
 
 
